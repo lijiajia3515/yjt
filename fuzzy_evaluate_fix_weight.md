@@ -10,7 +10,7 @@ if(weight == m1Weight) {
   weight = Math.max(m1Weight*1.05);
 } else if(weight < m2Weight * 1.05){
     weight = m2Weight*1.05
-} else if (){
+} else if ( ?? ){
     weight = m1Weight;
 }
 ```
