@@ -27,3 +27,29 @@
 #### 数据库
 ##### 1. 数据库命名调整
 ##### 2. 优化数据结构
+
+#### 容器镜像
+```text
+registry.cn-beijing.aliyuncs.com/hfhksoft/cairo-auth-server:2021.09.21
+registry.cn-beijing.aliyuncs.com/hfhksoft/cairo-system-service:2021.10.22
+registry.cn-beijing.aliyuncs.com/hfhksoft/cairo-auth-service:2021.10.22
+
+registry.cn-beijing.aliyuncs.com/hfhksoft/gateway:2021.10.01
+
+registry.cn-beijing.aliyuncs.com/hfhksoft/yr-service:2021.10.22
+registry.cn-beijing.aliyuncs.com/hfhksoft/yr-check-service:2021.10.22
+registry.cn-beijing.aliyuncs.com/hfhksoft/yr-equipment-service:2021.10.22
+registry.cn-beijing.aliyuncs.com/hfhksoft/yr-manage:2021.10.22-manage.yr.hfhksoft.com 
+
+mysql:8.0.20
+redis:6.2.5-alpine
+
+consul:latest
+rabbitmq:3.9.5-management-alpine
+
+
+minio/minio:RELEASE.2021-09-23T04-46-24Z 
+darthsim/imgproxy:latest
+
+traefik:latest
+```
