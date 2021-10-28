@@ -3,6 +3,7 @@
 ### 版本描述
 #### 1. 添加 trace `zipkin`
 #### 2. 修复了一些已知问题.
+#### 3. 报告生成问题 修复
 
 #### 管理端
 ##### 1. 无
@@ -23,11 +24,10 @@ registry.cn-beijing.aliyuncs.com/hfhksoft/cairo-auth-server:2021.10.26
 registry.cn-beijing.aliyuncs.com/hfhksoft/cairo-auth-service:2021.10.27
 registry.cn-beijing.aliyuncs.com/hfhksoft/cairo-system-service:2021.10.27
 
-
 registry.cn-beijing.aliyuncs.com/hfhksoft/service:2021.10.27
 
-registry.cn-beijing.aliyuncs.com/hfhksoft/yr-service:2021.10.27 #等打包
-registry.cn-beijing.aliyuncs.com/hfhksoft/yr-check-service:2021.10.27 #等打包
+registry.cn-beijing.aliyuncs.com/hfhksoft/yr-service:2021.10.27
+registry.cn-beijing.aliyuncs.com/hfhksoft/yr-check-service:2021.10.27
 registry.cn-beijing.aliyuncs.com/hfhksoft/yr-equipment-service:2021.10.27
 registry.cn-beijing.aliyuncs.com/hfhksoft/yr-manage:2021.10.22-manage.yr.hfhksoft.com 
 
