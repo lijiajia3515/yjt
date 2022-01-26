@@ -108,16 +108,19 @@ yr_equipment_service: 2021.10.01
 
 #### 容器镜像
 ```text
-registry.cn-beijing.aliyuncs.com/hfhksoft/cairo-auth-server:2021.10.26
-registry.cn-beijing.aliyuncs.com/hfhksoft/cairo-auth-service:2021.10.27
-registry.cn-beijing.aliyuncs.com/hfhksoft/cairo-system-service:2021.10.27
+registry.cn-beijing.aliyuncs.com/hfhksoft/cairo-auth-server:2022.1.0
+registry.cn-beijing.aliyuncs.com/hfhksoft/cairo-auth-service:2022.1.0
+registry.cn-beijing.aliyuncs.com/hfhksoft/cairo-system-service:2022.1.0
 
-registry.cn-beijing.aliyuncs.com/hfhksoft/service:2021.10.27
+registry.cn-beijing.aliyuncs.com/hfhksoft/service:2022.1.0
 
-registry.cn-beijing.aliyuncs.com/hfhksoft/yr-service:2021.10.27
-registry.cn-beijing.aliyuncs.com/hfhksoft/yr-check-service:2021.10.27
-registry.cn-beijing.aliyuncs.com/hfhksoft/yr-equipment-service:2021.10.27
-registry.cn-beijing.aliyuncs.com/hfhksoft/yr-manage:2021.10.22-manage.yr.hfhksoft.com 
+registry.cn-beijing.aliyuncs.com/hfhksoft/yr-manage:2022.1.0-service.hfhksoft.com
+
+registry.cn-beijing.aliyuncs.com/hfhksoft/yr-service:2022.1.0
+registry.cn-beijing.aliyuncs.com/hfhksoft/yr-check-service:2022.1.0
+registry.cn-beijing.aliyuncs.com/hfhksoft/yr-equipment-service:2022.1.0
+registry.cn-beijing.aliyuncs.com/hfhksoft/yr-whcjj-service:2022.1.0
+registry.cn-beijing.aliyuncs.com/hfhksoft/yjt-ai-service:2022.1.0
 
 mysql:8.0.20
 mongo:4.4.9

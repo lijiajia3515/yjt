@@ -1,0 +1,57 @@
+== 版本2022.01.25
+
+=== 升级内容
+建议 `强制更新`
+
+1. 上线 `统计-今日检查`
+2. 优化 `计划管理-任务模块`
+
+=== App端
+1. 修复 `设备问题提交` bug
+
+=== Web端
+1. 上线 `统计-进入检查`
+2. 优化 `计划管理-任务编辑`
+
+=== 服务端
+==== yjt-ai-service(分析服务)
+    1. 上线 `今日检查` (beta版本)
+
+==== yjt-check-service(体系服务)
+    1. 修复 `设备体系矩阵数据错误`
+
+==== yjt-data-service(业务服务)
+    1. 适配 `计划管理-任务编辑`
+    2. 兼容 `统计-今日检查` 需求
+
+
+=== 运维端
+1. 优化 部署,更新,重启 策略
+2. 修复rabbitmq重启配置失效问题
+
+[source]
+----
+registry.cn-beijing.aliyuncs.com/hfhksoft/cairo-auth-server:2022.1.0
+registry.cn-beijing.aliyuncs.com/hfhksoft/cairo-auth-service:2022.1.0
+registry.cn-beijing.aliyuncs.com/hfhksoft/cairo-system-service:2022.1.0
+
+registry.cn-beijing.aliyuncs.com/hfhksoft/service:2022.1.0
+
+registry.cn-beijing.aliyuncs.com/hfhksoft/yr-service:2022.1.0
+registry.cn-beijing.aliyuncs.com/hfhksoft/yr-check-service:2022.1.0
+registry.cn-beijing.aliyuncs.com/hfhksoft/yr-equipment-service:2022.1.0
+registry.cn-beijing.aliyuncs.com/hfhksoft/yr-manage:2022.1.0-manage.yr.hfhksoft.com
+
+mysql:8.0.20
+mongo:4.4.9
+redis:6.2.5-alpine
+rabbitmq:3.9.5-management-alpine
+
+consul:1.10.1
+zipkin:2.23.4
+
+minio/minio:RELEASE.2021-09-23T04-46-24Z
+darthsim/imgproxy:v2.17
+
+traefik:2.5.3
+----
