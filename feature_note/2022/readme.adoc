@@ -1,6 +1,6 @@
 == 2022年更新日志
 
-include::2022-01-12.adoc[]
+include::./2022-01-12.adoc[]
 
 
-include::2022-01-25.adoc[]
+include::./2022-01-25.adoc[]
